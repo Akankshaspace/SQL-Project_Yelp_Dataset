@@ -233,7 +233,7 @@ limit 3
 8. Does posing more reviews correlate with more fans?
 
 	Please explain your findings and interpretation of the results:
-Yes, more reviews correlate with more fans
+There is no such observation as to more reviews correlate with more fans
 SQL code used to find the result:
 select name, sum(review_count) as total_reviews_count, 
 sum(fans) as total_fans
@@ -272,7 +272,7 @@ order by total_reviews_count DESC
 | Matt      |                1239 |         62 |
 +-----------+---------------------+------------+
 
-?	TOTAL FANS COUNT IS HIGHER FOR USERS HAVING HIGHER REVIEW COUNT
+?	TOTAL FANS COUNT IS VARIABLE FOR USERS HAVING HIGHER REVIEW COUNT
 
 9. Are there more reviews with the word "love" or with the word "hate" in them?
 
